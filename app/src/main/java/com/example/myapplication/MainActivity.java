@@ -374,8 +374,8 @@ public class MainActivity extends AppCompatActivity {
             case R.id.nav_profile:
                 SendUserToProfileActivity();
                 break;
-            case R.id.nav_home:
-                startActivity(new Intent(MainActivity.this, MainActivity.class));
+            case R.id.nav_friend_requests:
+                startActivity(new Intent(MainActivity.this, FriendRequestActivity.class));
                 break;
             case R.id.nav_friends:
                 SendUserToFriendsActivity();
